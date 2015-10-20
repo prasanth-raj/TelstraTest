@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AB84691BD52529003CFCD4 /* no-image-available-th.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AB84671BD52529003CFCD4 /* no-image-available-th.png */; };
+		00AB846A1BD52529003CFCD4 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AB84681BD52529003CFCD4 /* refresh.png */; };
+		00AB846C1BD5272B003CFCD4 /* ImageNotFound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AB846B1BD5272B003CFCD4 /* ImageNotFound.jpg */; };
+		00AB84701BD53CA2003CFCD4 /* TTADataListItemManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB846F1BD53CA2003CFCD4 /* TTADataListItemManagerTests.m */; };
+		FE44BADF1BD2C44600A01066 /* TTADataListItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44BADE1BD2C44600A01066 /* TTADataListItemManager.m */; };
 		FE7FEE061BD21E4600D142B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE051BD21E4600D142B2 /* main.m */; };
-		FE7FEE091BD21E4600D142B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE081BD21E4600D142B2 /* AppDelegate.m */; };
-		FE7FEE0C1BD21E4600D142B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE0B1BD21E4600D142B2 /* ViewController.m */; };
-		FE7FEE0F1BD21E4600D142B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7FEE0D1BD21E4600D142B2 /* Main.storyboard */; };
-		FE7FEE111BD21E4600D142B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7FEE101BD21E4600D142B2 /* Images.xcassets */; };
-		FE7FEE141BD21E4700D142B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7FEE121BD21E4700D142B2 /* LaunchScreen.xib */; };
 		FE7FEE201BD21E4700D142B2 /* TelstraTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE1F1BD21E4700D142B2 /* TelstraTestAppTests.m */; };
+		FE7FEE321BD2284300D142B2 /* TTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE311BD2284300D142B2 /* TTAAppDelegate.m */; };
+		FE7FEE351BD228BA00D142B2 /* TTADataListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE341BD228BA00D142B2 /* TTADataListViewController.m */; };
+		FE7FEE381BD2296F00D142B2 /* TTADataListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE371BD2296F00D142B2 /* TTADataListViewCell.m */; };
+		FE7FEE401BD2331900D142B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7FEE3B1BD232CB00D142B2 /* Foundation.framework */; };
+		FE7FEE411BD2332200D142B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7FEE391BD232BC00D142B2 /* UIKit.framework */; };
+		FE7FEE7C1BD24F3B00D142B2 /* TTADataListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEE7B1BD24F3B00D142B2 /* TTADataListItem.m */; };
+		FE7FEEB31BD271CB00D142B2 /* TTAConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEEB21BD271CB00D142B2 /* TTAConstants.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AB84671BD52529003CFCD4 /* no-image-available-th.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image-available-th.png"; sourceTree = "<group>"; };
+		00AB84681BD52529003CFCD4 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		00AB846B1BD5272B003CFCD4 /* ImageNotFound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageNotFound.jpg; sourceTree = "<group>"; };
+		00AB846F1BD53CA2003CFCD4 /* TTADataListItemManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTADataListItemManagerTests.m; sourceTree = "<group>"; };
+		FE44BADD1BD2C44600A01066 /* TTADataListItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTADataListItemManager.h; path = ../Utilities/TTADataListItemManager.h; sourceTree = "<group>"; };
+		FE44BADE1BD2C44600A01066 /* TTADataListItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTADataListItemManager.m; path = ../Utilities/TTADataListItemManager.m; sourceTree = "<group>"; };
 		FE7FEE001BD21E4600D142B2 /* TelstraTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7FEE041BD21E4600D142B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE7FEE051BD21E4600D142B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE7FEE071BD21E4600D142B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FE7FEE081BD21E4600D142B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE7FEE0A1BD21E4600D142B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE7FEE0B1BD21E4600D142B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FE7FEE0E1BD21E4600D142B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE7FEE101BD21E4600D142B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FE7FEE131BD21E4700D142B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FE7FEE191BD21E4700D142B2 /* TelstraTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7FEE1E1BD21E4700D142B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE7FEE1F1BD21E4700D142B2 /* TelstraTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelstraTestAppTests.m; sourceTree = "<group>"; };
+		FE7FEE301BD2284300D142B2 /* TTAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAAppDelegate.h; sourceTree = "<group>"; };
+		FE7FEE311BD2284300D142B2 /* TTAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAAppDelegate.m; sourceTree = "<group>"; };
+		FE7FEE331BD228BA00D142B2 /* TTADataListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTADataListViewController.h; sourceTree = "<group>"; };
+		FE7FEE341BD228BA00D142B2 /* TTADataListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTADataListViewController.m; sourceTree = "<group>"; };
+		FE7FEE361BD2296F00D142B2 /* TTADataListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTADataListViewCell.h; sourceTree = "<group>"; };
+		FE7FEE371BD2296F00D142B2 /* TTADataListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTADataListViewCell.m; sourceTree = "<group>"; };
+		FE7FEE391BD232BC00D142B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE7FEE3B1BD232CB00D142B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE7FEE3D1BD232E400D142B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE7FEE7A1BD24F3B00D142B2 /* TTADataListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTADataListItem.h; sourceTree = "<group>"; };
+		FE7FEE7B1BD24F3B00D142B2 /* TTADataListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTADataListItem.m; sourceTree = "<group>"; };
+		FE7FEEB21BD271CB00D142B2 /* TTAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7FEE411BD2332200D142B2 /* UIKit.framework in Frameworks */,
+				FE7FEE401BD2331900D142B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00AB84621BD524B8003CFCD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00AB846B1BD5272B003CFCD4 /* ImageNotFound.jpg */,
+				00AB84671BD52529003CFCD4 /* no-image-available-th.png */,
+				00AB84681BD52529003CFCD4 /* refresh.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FE7FEDF71BD21E4600D142B2 = {
 			isa = PBXGroup;
 			children = (
 				FE7FEE021BD21E4600D142B2 /* TelstraTestApp */,
+				FE7FEE3F1BD232E900D142B2 /* Framework */,
 				FE7FEE1C1BD21E4700D142B2 /* TelstraTestAppTests */,
 				FE7FEE011BD21E4600D142B2 /* Products */,
 			);
@@ -81,13 +112,7 @@
 		FE7FEE021BD21E4600D142B2 /* TelstraTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				FE7FEE071BD21E4600D142B2 /* AppDelegate.h */,
-				FE7FEE081BD21E4600D142B2 /* AppDelegate.m */,
-				FE7FEE0A1BD21E4600D142B2 /* ViewController.h */,
-				FE7FEE0B1BD21E4600D142B2 /* ViewController.m */,
-				FE7FEE0D1BD21E4600D142B2 /* Main.storyboard */,
-				FE7FEE101BD21E4600D142B2 /* Images.xcassets */,
-				FE7FEE121BD21E4700D142B2 /* LaunchScreen.xib */,
+				FE7FEE2E1BD21F2B00D142B2 /* Classes */,
 				FE7FEE031BD21E4600D142B2 /* Supporting Files */,
 			);
 			path = TelstraTestApp;
@@ -107,6 +132,7 @@
 			children = (
 				FE7FEE1F1BD21E4700D142B2 /* TelstraTestAppTests.m */,
 				FE7FEE1D1BD21E4700D142B2 /* Supporting Files */,
+				00AB846F1BD53CA2003CFCD4 /* TTADataListItemManagerTests.m */,
 			);
 			path = TelstraTestAppTests;
 			sourceTree = "<group>";
@@ -117,6 +143,83 @@
 				FE7FEE1E1BD21E4700D142B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE7FEE291BD21EE200D142B2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				00AB84621BD524B8003CFCD4 /* Resources */,
+				FE7FEEB11BD2716B00D142B2 /* Constants */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FE7FEE2A1BD21EF500D142B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEE331BD228BA00D142B2 /* TTADataListViewController.h */,
+				FE7FEE341BD228BA00D142B2 /* TTADataListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE7FEE2B1BD21EFF00D142B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEE361BD2296F00D142B2 /* TTADataListViewCell.h */,
+				FE7FEE371BD2296F00D142B2 /* TTADataListViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE7FEE2C1BD21F0600D142B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEE7A1BD24F3B00D142B2 /* TTADataListItem.h */,
+				FE7FEE7B1BD24F3B00D142B2 /* TTADataListItem.m */,
+				FE44BADD1BD2C44600A01066 /* TTADataListItemManager.h */,
+				FE44BADE1BD2C44600A01066 /* TTADataListItemManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE7FEE2E1BD21F2B00D142B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEE2C1BD21F0600D142B2 /* Model */,
+				FE7FEE2B1BD21EFF00D142B2 /* View */,
+				FE7FEE2A1BD21EF500D142B2 /* Controller */,
+				FE7FEE2F1BD21F4900D142B2 /* Common */,
+				FE7FEE291BD21EE200D142B2 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE7FEE2F1BD21F4900D142B2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEE301BD2284300D142B2 /* TTAAppDelegate.h */,
+				FE7FEE311BD2284300D142B2 /* TTAAppDelegate.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FE7FEE3F1BD232E900D142B2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEE3D1BD232E400D142B2 /* CoreGraphics.framework */,
+				FE7FEE3B1BD232CB00D142B2 /* Foundation.framework */,
+				FE7FEE391BD232BC00D142B2 /* UIKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		FE7FEEB11BD2716B00D142B2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEEB21BD271CB00D142B2 /* TTAConstants.h */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +266,7 @@
 		FE7FEDF81BD21E4600D142B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TTA;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Cognizant Technologies Services Pvt Ltd";
 				TargetAttributes = {
@@ -199,9 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7FEE0F1BD21E4600D142B2 /* Main.storyboard in Resources */,
-				FE7FEE141BD21E4700D142B2 /* LaunchScreen.xib in Resources */,
-				FE7FEE111BD21E4600D142B2 /* Images.xcassets in Resources */,
+				00AB84691BD52529003CFCD4 /* no-image-available-th.png in Resources */,
+				00AB846C1BD5272B003CFCD4 /* ImageNotFound.jpg in Resources */,
+				00AB846A1BD52529003CFCD4 /* refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7FEE0C1BD21E4600D142B2 /* ViewController.m in Sources */,
-				FE7FEE091BD21E4600D142B2 /* AppDelegate.m in Sources */,
+				FE44BADF1BD2C44600A01066 /* TTADataListItemManager.m in Sources */,
+				FE7FEE351BD228BA00D142B2 /* TTADataListViewController.m in Sources */,
+				FE7FEEB31BD271CB00D142B2 /* TTAConstants.h in Sources */,
+				FE7FEE7C1BD24F3B00D142B2 /* TTADataListItem.m in Sources */,
+				FE7FEE321BD2284300D142B2 /* TTAAppDelegate.m in Sources */,
 				FE7FEE061BD21E4600D142B2 /* main.m in Sources */,
+				FE7FEE381BD2296F00D142B2 /* TTADataListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AB84701BD53CA2003CFCD4 /* TTADataListItemManagerTests.m in Sources */,
 				FE7FEE201BD21E4700D142B2 /* TelstraTestAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +351,6 @@
 			targetProxy = FE7FEE1A1BD21E4700D142B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FE7FEE0D1BD21E4600D142B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE7FEE0E1BD21E4600D142B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FE7FEE121BD21E4700D142B2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE7FEE131BD21E4700D142B2 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FE7FEE211BD21E4700D142B2 /* Debug */ = {
@@ -348,20 +438,22 @@
 		FE7FEE241BD21E4700D142B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TelstraTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FE7FEE251BD21E4700D142B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TelstraTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +510,7 @@
 				FE7FEE251BD21E4700D142B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7FEE261BD21E4700D142B2 /* Build configuration list for PBXNativeTarget "TelstraTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +519,7 @@
 				FE7FEE281BD21E4700D142B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
